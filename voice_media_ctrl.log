@@ -74,3 +74,72 @@ Traceback (most recent call last):
     r = win32.GetMessage(lpmsg, None, 0, 0)
 KeyboardInterrupt
 2026-02-09 16:41:28,682 - __main__ - INFO - Voice Media Controller stopped
+2026-02-09 17:13:09,822 - __main__ - INFO - Starting Voice Media Controller
+2026-02-09 17:13:09,831 - __main__ - INFO - Configuration loaded
+2026-02-09 17:13:09,831 - listener - INFO - Loading Vosk model from: C:\Users\Owen\Downloads\Programming\voice-media-control\model
+2026-02-09 17:13:10,425 - listener - INFO - Vosk model loaded successfully
+2026-02-09 17:13:10,500 - listener - INFO - Audio stream started
+2026-02-09 17:13:10,501 - __main__ - INFO - Voice listener started
+2026-02-09 17:13:10,501 - tray - INFO - Starting system tray icon
+2026-02-09 17:13:10,533 - PIL.Image - DEBUG - Importing AvifImagePlugin
+2026-02-09 17:13:10,541 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2026-02-09 17:13:10,543 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2026-02-09 17:13:10,543 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2026-02-09 17:13:10,545 - PIL.Image - DEBUG - Importing CurImagePlugin
+2026-02-09 17:13:10,546 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2026-02-09 17:13:10,548 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2026-02-09 17:13:10,553 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2026-02-09 17:13:10,555 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2026-02-09 17:13:10,559 - PIL.Image - DEBUG - Importing FliImagePlugin
+2026-02-09 17:13:10,561 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2026-02-09 17:13:10,562 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-02-09 17:13:10,563 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2026-02-09 17:13:10,564 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2026-02-09 17:13:10,566 - PIL.Image - DEBUG - Importing GifImagePlugin
+2026-02-09 17:13:10,567 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2026-02-09 17:13:10,568 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2026-02-09 17:13:10,569 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2026-02-09 17:13:10,574 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2026-02-09 17:13:10,576 - PIL.Image - DEBUG - Importing ImImagePlugin
+2026-02-09 17:13:10,577 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2026-02-09 17:13:10,578 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2026-02-09 17:13:10,580 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2026-02-09 17:13:10,580 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2026-02-09 17:13:10,580 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2026-02-09 17:13:10,582 - PIL.Image - DEBUG - Importing MicImagePlugin
+2026-02-09 17:13:10,583 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-02-09 17:13:10,584 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2026-02-09 17:13:10,585 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2026-02-09 17:13:10,594 - PIL.Image - DEBUG - Importing MspImagePlugin
+2026-02-09 17:13:10,596 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2026-02-09 17:13:10,597 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2026-02-09 17:13:10,598 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2026-02-09 17:13:10,598 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2026-02-09 17:13:10,605 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2026-02-09 17:13:10,606 - PIL.Image - DEBUG - Importing PngImagePlugin
+2026-02-09 17:13:10,606 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2026-02-09 17:13:10,606 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2026-02-09 17:13:10,608 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2026-02-09 17:13:10,609 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2026-02-09 17:13:10,610 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2026-02-09 17:13:10,611 - PIL.Image - DEBUG - Importing SunImagePlugin
+2026-02-09 17:13:10,612 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2026-02-09 17:13:10,613 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2026-02-09 17:13:10,613 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2026-02-09 17:13:10,616 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2026-02-09 17:13:10,618 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2026-02-09 17:13:10,620 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2026-02-09 17:13:10,622 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2026-02-09 17:13:13,921 - __main__ - DEBUG - Opening settings window
+2026-02-09 17:14:03,559 - listener - DEBUG - Recognized: hey music next
+2026-02-09 17:14:03,559 - commands - DEBUG - Matched command: 'next' -> next
+2026-02-09 17:14:03,560 - listener - INFO - Command matched: hey music next -> next
+2026-02-09 17:14:03,561 - commands - INFO - Sent media key: next
+2026-02-09 17:14:03,561 - __main__ - INFO - Command executed: next
+2026-02-09 17:14:03,583 - tray - DEBUG - Notification shown: Voice Media Controller
+2026-02-09 17:14:06,073 - listener - DEBUG - Recognized: what
+2026-02-09 17:14:09,096 - listener - DEBUG - Recognized: was pokemon
+2026-02-09 17:14:11,561 - listener - DEBUG - Recognized: that's works
+2026-02-09 17:14:25,918 - settings - INFO - Settings saved
+2026-02-09 17:14:25,918 - __main__ - INFO - Applying new configuration
+2026-02-09 17:14:25,918 - listener - INFO - Configuration reloaded
