@@ -1,0 +1,76 @@
+2026-02-09 16:32:30,536 - __main__ - INFO - Starting Voice Media Controller
+2026-02-09 16:32:30,537 - __main__ - INFO - Configuration loaded
+2026-02-09 16:32:30,539 - listener - INFO - Loading Vosk model from: C:\Users\Owen\Downloads\Programming\voice-media-control\model
+2026-02-09 16:32:31,504 - listener - INFO - Vosk model loaded successfully
+2026-02-09 16:32:31,653 - listener - INFO - Audio stream started
+2026-02-09 16:32:31,654 - __main__ - INFO - Voice listener started
+2026-02-09 16:32:31,655 - tray - INFO - Starting system tray icon
+2026-02-09 16:32:31,755 - PIL.Image - DEBUG - Importing AvifImagePlugin
+2026-02-09 16:32:31,802 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2026-02-09 16:32:31,805 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2026-02-09 16:32:31,806 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2026-02-09 16:32:31,808 - PIL.Image - DEBUG - Importing CurImagePlugin
+2026-02-09 16:32:31,810 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2026-02-09 16:32:31,814 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2026-02-09 16:32:31,821 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2026-02-09 16:32:31,825 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2026-02-09 16:32:31,832 - PIL.Image - DEBUG - Importing FliImagePlugin
+2026-02-09 16:32:31,836 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2026-02-09 16:32:31,840 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-02-09 16:32:31,841 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2026-02-09 16:32:31,844 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2026-02-09 16:32:31,846 - PIL.Image - DEBUG - Importing GifImagePlugin
+2026-02-09 16:32:31,847 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2026-02-09 16:32:31,850 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2026-02-09 16:32:31,853 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2026-02-09 16:32:31,860 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2026-02-09 16:32:31,864 - PIL.Image - DEBUG - Importing ImImagePlugin
+2026-02-09 16:32:31,870 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2026-02-09 16:32:31,875 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2026-02-09 16:32:31,877 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2026-02-09 16:32:31,877 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2026-02-09 16:32:31,878 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2026-02-09 16:32:31,881 - PIL.Image - DEBUG - Importing MicImagePlugin
+2026-02-09 16:32:31,884 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-02-09 16:32:31,884 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2026-02-09 16:32:31,887 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2026-02-09 16:32:31,900 - PIL.Image - DEBUG - Importing MspImagePlugin
+2026-02-09 16:32:31,902 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2026-02-09 16:32:31,905 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2026-02-09 16:32:31,907 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2026-02-09 16:32:31,908 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2026-02-09 16:32:31,918 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2026-02-09 16:32:31,921 - PIL.Image - DEBUG - Importing PngImagePlugin
+2026-02-09 16:32:31,921 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2026-02-09 16:32:31,921 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2026-02-09 16:32:31,923 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2026-02-09 16:32:31,925 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2026-02-09 16:32:31,927 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2026-02-09 16:32:31,930 - PIL.Image - DEBUG - Importing SunImagePlugin
+2026-02-09 16:32:31,932 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2026-02-09 16:32:31,933 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2026-02-09 16:32:31,934 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2026-02-09 16:32:31,985 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2026-02-09 16:32:31,989 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2026-02-09 16:32:31,992 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2026-02-09 16:32:31,995 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2026-02-09 16:32:48,415 - __main__ - DEBUG - Opening settings window
+2026-02-09 16:35:21,708 - listener - DEBUG - Recognized: huh
+2026-02-09 16:35:41,708 - listener - DEBUG - Recognized: huh
+2026-02-09 16:36:02,203 - listener - DEBUG - Recognized: huh
+2026-02-09 16:36:22,705 - listener - DEBUG - Recognized: huh
+2026-02-09 16:36:42,704 - listener - DEBUG - Recognized: huh
+2026-02-09 16:37:03,207 - listener - DEBUG - Recognized: huh
+2026-02-09 16:37:23,708 - listener - DEBUG - Recognized: huh
+2026-02-09 16:37:35,207 - listener - DEBUG - Recognized: huh
+2026-02-09 16:38:41,711 - listener - DEBUG - Recognized: huh
+2026-02-09 16:39:02,204 - listener - DEBUG - Recognized: huh
+2026-02-09 16:39:22,710 - listener - DEBUG - Recognized: huh
+2026-02-09 16:39:35,730 - listener - DEBUG - Recognized: huh
+2026-02-09 16:40:11,711 - listener - DEBUG - Recognized: huh
+2026-02-09 16:41:28,616 - pystray._base - ERROR - An error occurred in the main loop
+Traceback (most recent call last):
+  File "C:\Users\Owen\AppData\Roaming\Python\Python313\site-packages\pystray\_win32.py", line 147, in _mainloop
+    r = win32.GetMessage(lpmsg, None, 0, 0)
+KeyboardInterrupt
+2026-02-09 16:41:28,682 - __main__ - INFO - Voice Media Controller stopped

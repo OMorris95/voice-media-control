@@ -1,0 +1,25 @@
+{
+  "wake_word_enabled": true,
+  "wake_word": "hey music",
+  "commands": {
+    "next": [
+      "next",
+      "skip"
+    ],
+    "back": [
+      "back",
+      "previous"
+    ],
+    "pause": [
+      "pause",
+      "stop"
+    ],
+    "play": [
+      "play",
+      "resume"
+    ]
+  },
+  "mic_device": null,
+  "sensitivity": 0.5,
+  "auto_start": false
+}
