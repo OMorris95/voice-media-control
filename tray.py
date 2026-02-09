@@ -1,6 +1,7 @@
 """System tray icon and menu using pystray."""
 
 import logging
+import queue
 import threading
 
 import pystray
@@ -58,6 +59,9 @@ class TrayApp:
         self._icon = None
         self._menu_pause_item = None
 
+        # Queue for main thread to handle settings (tkinter needs main thread)
+        self.settings_queue = queue.Queue()
+
     def _get_menu(self):
         """Build the tray menu."""
         is_paused = self._status == "paused"
@@ -72,9 +76,8 @@ class TrayApp:
 
     def _on_settings_click(self, icon, item):
         """Handle Settings menu click."""
-        if self.on_settings:
-            # Run in separate thread to not block tray
-            threading.Thread(target=self.on_settings, daemon=True).start()
+        # Signal main thread to open settings (tkinter needs main thread)
+        self.settings_queue.put("open")
 
     def _on_toggle_pause_click(self, icon, item):
         """Handle Pause/Resume menu click."""

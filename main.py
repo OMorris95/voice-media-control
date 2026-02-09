@@ -2,7 +2,9 @@
 
 import logging
 import os
+import queue
 import sys
+import time
 
 from config import load_config, get_app_dir
 from listener import VoiceListener
@@ -32,6 +34,7 @@ class VoiceMediaController:
         self.listener = None
         self.tray = None
         self.settings_window = None
+        self._running = True
 
     def run(self):
         """Start the application."""
@@ -63,8 +66,22 @@ class VoiceMediaController:
         else:
             logger.info("Voice listener started")
 
-        # Run tray (blocks main thread)
-        self.tray.run()
+        # Run tray in background thread (tkinter needs main thread)
+        self.tray.run_detached()
+
+        # Main loop - handle settings requests on main thread
+        self._main_loop()
+
+    def _main_loop(self):
+        """Main loop that handles settings requests on the main thread."""
+        while self._running:
+            try:
+                # Check for settings open request (non-blocking)
+                msg = self.tray.settings_queue.get(timeout=0.1)
+                if msg == "open":
+                    self._on_settings()
+            except queue.Empty:
+                pass
 
     def _on_command(self, action):
         """Called when a voice command is matched and executed."""
@@ -108,6 +125,7 @@ class VoiceMediaController:
     def _on_quit(self):
         """Clean up and quit the application."""
         logger.info("Shutting down")
+        self._running = False
         if self.listener:
             self.listener.stop()
 

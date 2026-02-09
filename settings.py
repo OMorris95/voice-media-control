@@ -78,6 +78,11 @@ class SettingsWindow:
         self.window = None
         self._mic_devices = []
 
+        # Tkinter variables (initialized in _create_widgets)
+        self.wake_enabled_var = None
+        self.sensitivity_var = None
+        self.auto_start_var = None
+
     def show(self):
         """Show the settings window."""
         if self.window is not None:
@@ -302,5 +307,10 @@ class SettingsWindow:
     def _close(self):
         """Close the window."""
         if self.window:
+            # Clear variable references before destroying to avoid threading issues
+            self.wake_enabled_var = None
+            self.sensitivity_var = None
+            self.auto_start_var = None
+            self.window.quit()
             self.window.destroy()
             self.window = None
